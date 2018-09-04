@@ -65,7 +65,7 @@ const output = (publicKey, privateKey, subject,email) => {
 <p><u><i><strong>Note:</strong> New keys are generated on every request/refresh/reload</u></i></p>
 <p class="txt-big">${showEmailReplace ? "Please replace &quot;<strong>&lt;someone@example.com&gt;</strong>&quot; with your own email address" : ""}</p>
 <div>
-<form action="/" method="get">
+<form action="" method="get">
    <input type="email" required name="email" value="${email}" />
    <button type="submit">Update subject email & re-generate keys</button>
 </form>
