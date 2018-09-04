@@ -1,0 +1,32 @@
+{
+  "name": "vapid",
+  "version": "1.0.0",
+  "description": "Vapid key generators",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tirth Bodawala <tirthbodawala@atyantik.com>",
+  "license": "MIT",
+  "dependencies": {
+    "web-push": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atyantik/tools.reactpwa.com.git"
+  },
+  "keywords": [
+    "reactpwa",
+    "pawjs",
+    "toolset",
+    "vapid"
+  ],
+  "bugs": {
+    "url": "https://github.com/Atyantik/tools.reactpwa.com/issues"
+  },
+  "homepage": "https://github.com/Atyantik/tools.reactpwa.com#readme"
+}
