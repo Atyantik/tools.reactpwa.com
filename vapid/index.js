@@ -22,6 +22,17 @@ const output = (publicKey, privateKey, subject,email) => {
 <link>
     <link rel="icon" href="../favicon.ico" type="image/x-icon" />
     <title>Vapid key generator online</title>
+    <meta property="og:url" content="https://tools.reactpwa.com/vapid/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Generate VAPID Keys online" />
+    <meta property="og:description" content="Implement web push notifications with Voluntary Application Server Identification. This tool helps you create public & private keys for VAPID server" />
+
+    <meta property="og:image" content="/vapid/digital-keys.png" />
+    <meta property="og:image:secure_url" content="https://tools.reactpwa.com/vapid/digital-keys.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Digital Keys" />
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism-okaidia.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js"></script>
@@ -35,6 +46,9 @@ const output = (publicKey, privateKey, subject,email) => {
         }
         .txt-big {
           font-size: 21px;
+        }
+        .txt-center {
+          text-align: center;
         }
         .txt-download {
           cursor: pointer;
@@ -57,6 +71,14 @@ const output = (publicKey, privateKey, subject,email) => {
         input[type=email], button[type=submit] {
           padding: 5px;
         }
+        .card {
+          margin-top: 20px;
+          border: 1px solid #d3d3d3;
+          border-radius: .25rem;
+        }
+        .content {
+          padding: 15px;
+        }
     </style>
 </head>
 <body>
@@ -72,7 +94,18 @@ const output = (publicKey, privateKey, subject,email) => {
 </div>
 <pre><code class="language-json">${json}</code></pre>
 <a class="txt-download" href="${jsonStr}" download="vapid.json" title="vapid.json">Click here to download the <strong>vapid.json</strong></a>
+<div class="card">
+  <div class="content">
+    <h3><a href="https://www.reactpwa.com/" target="_blank">Parent Project: ReactPWA</a></h3>
+    <p>This tool helps you create public &amp; private keys for <strong>Voluntary Application Server Identification - VAPID</strong></p>
+    <p>This tool was created for supporting the project <a href="https://github.com/Atyantik/pawjs" target="_blank">PawJS</a> &amp; <a href="https://www.reactpwa.com/" target="_blank">ReactPWA</a> to help implement Web Push notification.</p>
+  </div>
 </div>
+</div>
+<footer class="container">
+  <section class="copyright txt-center"><a href="https://www.atyantik.com" target="_blank" rel="noreferrer noopener nofollow">Copyright &copy; 2018 Atyantik Technologies Private Limited</a></section>
+</footer>
+
 </body>
 </html>
 `
