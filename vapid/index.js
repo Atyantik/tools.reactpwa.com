@@ -27,8 +27,8 @@ const output = (publicKey, privateKey, subject,email) => {
     <meta property="og:title" content="Generate VAPID Keys online" />
     <meta property="og:description" content="Implement web push notifications with Voluntary Application Server Identification. This tool helps you create public & private keys for VAPID server" />
 
-    <meta property="og:image" content="/vapid/digital-keys.png" />
-    <meta property="og:image:secure_url" content="https://tools.reactpwa.com/vapid/digital-keys.png" />
+    <meta property="og:image" content="/vapid/public/digital-keys.png" />
+    <meta property="og:image:secure_url" content="https://tools.reactpwa.com/vapid/public/digital-keys.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="512" />
     <meta property="og:image:height" content="512" />
