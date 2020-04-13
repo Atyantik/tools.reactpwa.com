@@ -10,10 +10,10 @@
   "author": "Tirth Bodawala <tirthbodawala@atyantik.com>",
   "license": "MIT",
   "dependencies": {
-    "web-push": "^3.3.2"
+    "web-push": "^3.4.3"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.19.4"
   },
   "repository": {
     "type": "git",
